@@ -15,7 +15,6 @@ public class RouteFinder
 	 */
 	public RouteFinder(String filePath)
 	{
-		// TODO: Define the class BaseballFileReader
 		BaseballFileReader reader = new BaseballFileReader();
 
 		// TODO: Define the readFile() method which reads the CSV (Comma Separated Value)
@@ -35,7 +34,7 @@ public class RouteFinder
 
 		System.out.printf("The list of cities has %d items. \n", readRoutesBetweenCities.size());
 	}
-	
+
 	/**
 	 * Accessor method returns the list of items read from input file.
 	 * @return	the routes between cities.
